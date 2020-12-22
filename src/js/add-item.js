@@ -96,8 +96,6 @@ const add_item = ( remove_item) => {
     let can_i_add = true;
     const edit = JSON.parse(localStorage.getItem('edit'));
 
-    console.log('edit:', edit)
-
     if(edit) {
         edit_element(remove_item);
         clear_form();
@@ -111,12 +109,9 @@ const add_item = ( remove_item) => {
 
         items.forEach(item => {
             if(item.dataset.name.trim().toLowerCase() === name.value.trim().toLowerCase()) {
-                console.log('false')
                 can_i_add = false
             }
         });
-
-        console.log(can_i_add)
 
         if(!can_i_add) return
 

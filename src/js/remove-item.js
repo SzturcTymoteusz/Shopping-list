@@ -3,8 +3,6 @@ const remove_item = (item_remove) => {
     const item_parent = item.parentElement;
     const name = item_parent.querySelector('.list_title').textContent;
 
-    console.log('work')
-
     item.remove();
 
     const childs = [...item_parent.querySelectorAll('.list_item')];
