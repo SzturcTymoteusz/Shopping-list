@@ -1,0 +1,77 @@
+.item
+    height: 30px
+    position: relative
+    display: flex
+
+.item_circle
+    height: 20px
+    width: 20px
+    background-color: white
+    border: 2px solid black
+    border-radius: 20px
+    position: relative
+    top: 50%
+    left: 0
+    transform: translate(0 -50%)
+    margin-left: 10px
+    &:hover
+        cursor: pointer
+
+.item_check
+    font-size: 30px
+    color: green
+    position: absolute
+    top: 40%
+    left: 60%
+    transform: translate(-50%, -50%)
+
+.item_title
+    font-size: 20px
+    line-height: 30px
+    text-transform: capitalize
+    flex-grow: 1
+    margin-left: 20px
+    margin-right: 5px
+
+.item_amount
+    font-size: 20px
+    line-height: 30px
+    flex-basis: 10%
+
+.item_weight
+    font-size: 20px
+    line-height: 30px
+    flex-basis: 15%
+    margin-right: 5px
+
+.item_edit
+    font-size: 20px
+    border: none
+    background-color: white
+    outline: none
+    &:hover
+        cursor: pointer
+
+.item_delete
+    font-size: 20px
+    border: none
+    background-color: white
+    outline: none
+    margin-right: 10px
+    &:hover
+        cursor: pointer
+
+.item_check--hidden
+    visibility: hidden
+
+.item_line-through
+    position: absolute
+    top: 55%
+    left: 40px
+    transform: translate(0, -50%)
+    height: 2px
+    width: 310px
+    background-color: black
+
+.item_line-through--hidden
+    visibility: hidden

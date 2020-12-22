@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Shopping list</title>
+</head>
+<body class="page">
+    <img class="page_background" src="img/shopping.jpg">
+    <main class="list page_container">
+        <section class="list_background"></section>
+        <section class="list_counter">1</section>
+        <section class="list_print"><i class="fas fa-print"></i></section>
+        <header class="list_header">Shopping list</header>
+        <ul class="list_container">
+            <!-- <section class=" list_category category_vegetables" >
+                <header class="list_title">Vegetables</header>
+                <li class="item list_item" data-name="Apple">
+                    <div class="item_circle"><i class="fas fa-check item_check item_check--hidden"></i></div>
+                    <span class="item_title">Apple</span>
+                    <span class="item_amount">34</span>
+                    <span class="item_weight"></span>
+                    <button class="item_edit"><i class="far fa-edit"></i></button>
+                    <button class="item_delete"><i class="fas fa-trash"></i></button>
+                    <div class="item_line-through item_line-through--hidden"></div>
+                </li>
+            </section>  -->
+
+        </ul>
+
+        <button class="list_btn">Add item</button>
+        <section class="list_piece-counter">10/12</section>
+        <section class="list_weight-counter">1.23/12.32</section>
+
+
+        <section class="form list_form form--hide">
+            <label class="form_label">
+                <span class="form_input-title">Category</span>
+                <select class="form_category">
+                    <option value="Fruit">Fruit</option>
+                    <option value="Vegetables">Vegetables</option>
+                    <option value="Dairy">Dairy</option>
+                    <option value="Bread">Bread</option>
+                    <option value="Fishes">Fishes</option>
+                    <option value="Meat">Meat</option>
+                    <option value="Sweets">Sweets</option>
+                    <option value="Drinks">Drinks</option>
+                    <option value="Sport">Sport</option>
+                    <option value="House">House</option>
+                </select>
+            </label>
+            <label class="form_label">
+                <span class="form_input-title">Name</span>
+                <input type="text" class="form_name" placeholder="Name" maxlength="15">
+            </label>
+            <div class="form_radio">
+                <label class="form_label">
+                    <input type="radio" name="food" value="Amount" class="form_radio-check" checked>
+                    <input type="text"  placeholder="Amount" class="form_radio-input form_amount">
+                </label>
+                <label class="form_label">
+                    <input type="radio" name="food" value="Weight" class="form_radio-check">
+                    <input type="text" placeholder="Weight [1.4 kg]"
+                    class="form_radio-input form_weight" disabled>
+                </label>
+            </div>
+            <button type="submit" class="form_submit">Submit</button>
+            <button class="form_exit"><i class="fas fa-times"></i></button>
+        </section>
+
+
+    </main>
+</body>
+</html>
