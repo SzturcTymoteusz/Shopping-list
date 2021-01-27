@@ -1,6 +1,7 @@
 import '../sass/style.sass';
 import '../index.html';
 import '../img/shopping.jpg';
+import '../img/favicon-16x16.png'
 
 import form_btn_operation from './form';
 import form_logic from './form-logic';

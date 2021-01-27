@@ -21,7 +21,7 @@ var ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = __webpack_require__(91);
 var ___HTML_LOADER_IMPORT_0___ = __webpack_require__(160);
 // Module
 var ___HTML_LOADER_REPLACEMENT_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);
-var code = "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"> <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.15.1/css/all.css\" integrity=\"sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp\" crossorigin=\"anonymous\"> <title>Shopping list</title> </head> <body class=\"page\"> <img class=\"page_background\" src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\"> <main class=\"list page_container\"> <section class=\"list_background\"></section> <section class=\"list_counter\">1</section> <section class=\"list_print\"><i class=\"fas fa-print\"></i></section> <header class=\"list_header\">Shopping list</header> <ul class=\"list_container\"> </ul> <button class=\"list_btn\">Add item</button> <section class=\"list_piece-counter\">10/12</section> <section class=\"list_weight-counter\">1.23/12.32</section> <section class=\"form list_form form--hide\"> <label class=\"form_label\"> <span class=\"form_input-title\">Category</span> <select class=\"form_category\"> <option value=\"Fruit\">Fruit</option> <option value=\"Vegetables\">Vegetables</option> <option value=\"Dairy\">Dairy</option> <option value=\"Bread\">Bread</option> <option value=\"Fishes\">Fishes</option> <option value=\"Meat\">Meat</option> <option value=\"Sweets\">Sweets</option> <option value=\"Drinks\">Drinks</option> <option value=\"Sport\">Sport</option> <option value=\"House\">House</option> </select> </label> <label class=\"form_label\"> <span class=\"form_input-title\">Name</span> <input type=\"text\" class=\"form_name\" placeholder=\"Name\" maxlength=\"15\"> </label> <div class=\"form_radio\"> <label class=\"form_label\"> <input type=\"radio\" name=\"food\" value=\"Amount\" class=\"form_radio-check\" checked=\"checked\"> <input type=\"text\" placeholder=\"Amount\" class=\"form_radio-input form_amount\"> </label> <label class=\"form_label\"> <input type=\"radio\" name=\"food\" value=\"Weight\" class=\"form_radio-check\"> <input type=\"text\" placeholder=\"Weight [1.4 kg]\" class=\"form_radio-input form_weight\" disabled=\"disabled\"> </label> </div> <button type=\"submit\" class=\"form_submit\">Submit</button> <button class=\"form_exit\"><i class=\"fas fa-times\"></i></button> </section> </main> </body> </html>";
+var code = "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"> <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"./img/favicon-16x16.png\"> <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.15.1/css/all.css\" integrity=\"sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp\" crossorigin=\"anonymous\"> <title>Shopping list</title> </head> <body class=\"page\"> <img class=\"page_background\" src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\"> <main class=\"list page_container\"> <section class=\"list_background\"></section> <section class=\"list_counter\">1</section> <section class=\"list_print\"><i class=\"fas fa-print\"></i></section> <header class=\"list_header\">Shopping list</header> <ul class=\"list_container\"> </ul> <button class=\"list_btn\">Add item</button> <section class=\"list_piece-counter\">10/12</section> <section class=\"list_weight-counter\">1.23/12.32</section> <section class=\"form list_form form--hide\"> <label class=\"form_label\"> <span class=\"form_input-title\">Category</span> <select class=\"form_category\"> <option value=\"Fruit\">Fruit</option> <option value=\"Vegetables\">Vegetables</option> <option value=\"Dairy\">Dairy</option> <option value=\"Bread\">Bread</option> <option value=\"Fishes\">Fishes</option> <option value=\"Meat\">Meat</option> <option value=\"Sweets\">Sweets</option> <option value=\"Drinks\">Drinks</option> <option value=\"Sport\">Sport</option> <option value=\"House\">House</option> </select> </label> <label class=\"form_label\"> <span class=\"form_input-title\">Name</span> <input type=\"text\" class=\"form_name\" placeholder=\"Name\" maxlength=\"15\"> </label> <div class=\"form_radio\"> <label class=\"form_label\"> <input type=\"radio\" name=\"food\" value=\"Amount\" class=\"form_radio-check\" checked=\"checked\"> <input type=\"text\" placeholder=\"Amount\" class=\"form_radio-input form_amount\"> </label> <label class=\"form_label\"> <input type=\"radio\" name=\"food\" value=\"Weight\" class=\"form_radio-check\"> <input type=\"text\" placeholder=\"Weight [1.4 kg]\" class=\"form_radio-input form_weight\" disabled=\"disabled\"> </label> </div> <button type=\"submit\" class=\"form_submit\">Submit</button> <button class=\"form_exit\"><i class=\"fas fa-times\"></i></button> </section> </main> </body> </html>";
 // Exports
 module.exports = code;
 
@@ -696,31 +696,48 @@ module.exports = remove_item;
 /************************************************************************/
 (() => {
 "use strict";
-/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(766);
-/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_html__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _img_shopping_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(160);
-/* harmony import */ var _form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(781);
-/* harmony import */ var _form__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_form__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _form_logic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(682);
-/* harmony import */ var _form_logic__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_form_logic__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _add_item_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(634);
-/* harmony import */ var _add_item_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_add_item_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _remove_item_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(210);
-/* harmony import */ var _remove_item_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_remove_item_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _list_logic_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(604);
-/* harmony import */ var _list_logic_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_list_logic_js__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _check_item_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(737);
-/* harmony import */ var _check_item_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_check_item_js__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _load_local_storage_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(415);
-/* harmony import */ var _load_local_storage_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_load_local_storage_js__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _count_items_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(544);
-/* harmony import */ var _count_items_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_count_items_js__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _count_pieces_weight_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(233);
-/* harmony import */ var _count_pieces_weight_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_count_pieces_weight_js__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _edit_item_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(224);
-/* harmony import */ var _edit_item_js__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_edit_item_js__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _print_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(607);
-/* harmony import */ var _print_js__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_print_js__WEBPACK_IMPORTED_MODULE_12__);
+
+// EXTERNAL MODULE: ./src/index.html
+var src = __webpack_require__(766);
+// EXTERNAL MODULE: ./src/img/shopping.jpg
+var shopping = __webpack_require__(160);
+;// CONCATENATED MODULE: ./src/img/favicon-16x16.png
+/* harmony default export */ const favicon_16x16 = (__webpack_require__.p + "img/favicon-16x16.png");
+// EXTERNAL MODULE: ./src/js/form.js
+var js_form = __webpack_require__(781);
+var form_default = /*#__PURE__*/__webpack_require__.n(js_form);
+// EXTERNAL MODULE: ./src/js/form-logic.js
+var form_logic = __webpack_require__(682);
+var form_logic_default = /*#__PURE__*/__webpack_require__.n(form_logic);
+// EXTERNAL MODULE: ./src/js/add-item.js
+var add_item = __webpack_require__(634);
+var add_item_default = /*#__PURE__*/__webpack_require__.n(add_item);
+// EXTERNAL MODULE: ./src/js/remove-item.js
+var remove_item = __webpack_require__(210);
+var remove_item_default = /*#__PURE__*/__webpack_require__.n(remove_item);
+// EXTERNAL MODULE: ./src/js/list-logic.js
+var list_logic = __webpack_require__(604);
+var list_logic_default = /*#__PURE__*/__webpack_require__.n(list_logic);
+// EXTERNAL MODULE: ./src/js/check-item.js
+var check_item = __webpack_require__(737);
+var check_item_default = /*#__PURE__*/__webpack_require__.n(check_item);
+// EXTERNAL MODULE: ./src/js/load-local-storage.js
+var load_local_storage = __webpack_require__(415);
+var load_local_storage_default = /*#__PURE__*/__webpack_require__.n(load_local_storage);
+// EXTERNAL MODULE: ./src/js/count_items.js
+var count_items = __webpack_require__(544);
+var count_items_default = /*#__PURE__*/__webpack_require__.n(count_items);
+// EXTERNAL MODULE: ./src/js/count-pieces-weight.js
+var count_pieces_weight = __webpack_require__(233);
+var count_pieces_weight_default = /*#__PURE__*/__webpack_require__.n(count_pieces_weight);
+// EXTERNAL MODULE: ./src/js/edit_item.js
+var edit_item = __webpack_require__(224);
+var edit_item_default = /*#__PURE__*/__webpack_require__.n(edit_item);
+// EXTERNAL MODULE: ./src/js/print.js
+var print = __webpack_require__(607);
+var print_default = /*#__PURE__*/__webpack_require__.n(print);
+;// CONCATENATED MODULE: ./src/js/index.js
+
 
 
 
@@ -738,24 +755,24 @@ module.exports = remove_item;
 
 
 const all_function = {
-    add_item: (_add_item_js__WEBPACK_IMPORTED_MODULE_4___default()),
-    count_items: (_count_items_js__WEBPACK_IMPORTED_MODULE_9___default()),
-    count_pieces_weight: (_count_pieces_weight_js__WEBPACK_IMPORTED_MODULE_10___default()),
-    remove_item: (_remove_item_js__WEBPACK_IMPORTED_MODULE_5___default()),
-    check_item: (_check_item_js__WEBPACK_IMPORTED_MODULE_7___default()),
-    edit_item: (_edit_item_js__WEBPACK_IMPORTED_MODULE_11___default()),
-    print: (_print_js__WEBPACK_IMPORTED_MODULE_12___default())
+    add_item: (add_item_default()),
+    count_items: (count_items_default()),
+    count_pieces_weight: (count_pieces_weight_default()),
+    remove_item: (remove_item_default()),
+    check_item: (check_item_default()),
+    edit_item: (edit_item_default()),
+    print: (print_default())
 };
 
 window.addEventListener('load', () => {
     localStorage.setItem('edit', JSON.stringify(false));
 
-    _load_local_storage_js__WEBPACK_IMPORTED_MODULE_8___default()();
-    _form__WEBPACK_IMPORTED_MODULE_2___default()(all_function);
-    _form_logic__WEBPACK_IMPORTED_MODULE_3___default()();
-    _list_logic_js__WEBPACK_IMPORTED_MODULE_6___default()(all_function);
-    _count_items_js__WEBPACK_IMPORTED_MODULE_9___default()();
-    _count_pieces_weight_js__WEBPACK_IMPORTED_MODULE_10___default()();
+    load_local_storage_default()();
+    form_default()(all_function);
+    form_logic_default()();
+    list_logic_default()(all_function);
+    count_items_default()();
+    count_pieces_weight_default()();
 });
 
 
